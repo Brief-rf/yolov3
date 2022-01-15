@@ -51,10 +51,10 @@ model_output = body(model_input, num_anchors=num_anchros, num_classes=num_classe
 
 model = Model(model_input, model_output)
 
-model.load_weights("./yolo_weights.h5", by_name=True, skip_mismatch=True)
+# model.load_weights("./yolo_weights.h5", by_name=True, skip_mismatch=True)
 
-freeze_layer = 249
-for i in range(freeze_layer): model.layers[i].trainable = False
+# freeze_layer = 249
+# for i in range(freeze_layer): model.layers[i].trainable = False
 
 
 
