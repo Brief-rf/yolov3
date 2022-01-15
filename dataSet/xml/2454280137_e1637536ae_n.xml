@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataSet</folder>
+	<filename>2454280137_e1637536ae_n.jpg</filename>
+	<path>C:\Users\Brief\Documents\yolov3\dataSet\2454280137_e1637536ae_n.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>40</ymin>
+			<xmax>272</xmax>
+			<ymax>204</ymax>
+		</bndbox>
+	</object>
+</annotation>
